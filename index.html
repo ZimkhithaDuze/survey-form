@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    link rel="stylesheet" href="styles.css">
+<h1 id='title'> ZD Wine Survey</h1>
+<p id='description'> Thank you for taking the time to help us improve our brand.</p>
+<form id='survey-form'>
+  <div class='input-element'> 
+    <label id='name-label'>
+      Name
+    </label>
+    <input placeholder='name' id='name' type='text'required />
+    </div>
+  <div class='input-element'> 
+    <label id='email-label'>
+      Email
+    </label>
+    <input placeholder='email' id='email' type='email'required />
+    </div>
+  <div class='input-element'> 
+    <label id='number-label'>
+      Age
+    </label>
+    <input placeholder='age' type='number' id='number' min='18' max='100' required />
+  <div class='input-element'> 
+    <label id='select-label'>
+      Which option best describes your current role?
+    </label>
+    <select id='dropdown'>
+      <option>Other</option>
+      <option>Prefer not to say</option>
+      <option>Student</option>
+      <option>Working Professional</option>
+      <option>Unemployed</option>
+    </select>
+     <div class='input-element'>
+       <label> Would you recommend ZD Wine to a friend?</label>
+       <div>
+       <label>
+       <input type='radio'name='brand'value='highly recommend'/>Highly recommend</label>
+       </div>
+       <div>
+       <label>
+       <input type='radio'name='brand'value='maybe'/>Maybe</label>
+       </div>
+       <div>
+       <label>
+       <input type='radio'name='brand'value='not sure'/>Not sure</label>
+       </div>
+     </div>
+     <div class='input-element'>
+       <label> Which type of wine do you prefer?</label>
+       <div>
+       <label>
+       <input type='checkbox'name='wine-type'value='red'/>Red</label>
+       </div>
+       <div>
+       <label>
+       <input type='checkbox'name='wine-type'value='white'/>White</label>
+       </div>
+       <div>
+       <label>
+       <input type='checkbox'name='wine-type'value='rose'/>Rose</label>
+       </div>
+       <div>
+       <label>
+       <input type='checkbox'name='wine-type'value='sparkling wine'/>Sparkling wine</label>
+       </div>
+       <div>
+       <label>
+       <input type='checkbox'name='wine-type'value='dessert red'/>Dessert Red</label></div>
+       <div>
+       <label>
+       <input type='checkbox'name='wine-type' value='dessert white'/>Dessert White</label>
+       </div>
+     </div>
+     <div class='input-element'>
+  <label>Additional Comments</label>
+       <textarea type='text'></textarea>
+     </div>
+     <button type='submit'id='submit'>Submit</button>
+</form>
